@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>shaders/bilateral_filter.fsh</file>
+        <file>shaders/edge_detection.fsh</file>
+        <file>shaders/gaussian_blur.fsh</file>
+        <file>shaders/vertex_shader.vsh</file>
+        <file>shaders/original.fsh</file>
+    </qresource>
+</RCC>
