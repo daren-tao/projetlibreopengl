@@ -15,14 +15,16 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    mainpanel.cpp \
-    imagealgorithm.cpp
+    mainpanel.cpp
 
 HEADERS  += mainwindow.h \
     mainpanel.h \
-    imagealgorithm.h
+    observable.h \
+    observer.h
 
 FORMS    += mainwindow.ui
 
 RESOURCES += \
     shaders.qrc
+
+CONFIG += c++11
